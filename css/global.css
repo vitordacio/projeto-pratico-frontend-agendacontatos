@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+
+
+    width: 100%;
+    max-width: 1440px;
+    max-height: 900px;
+    height: 100%;
+
+    border: 1px solid red;
+}
+
+.halfContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    min-height: 100%;
+
+}
+
+
+
+.formDefault {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+    max-width: 481px;
+    width: 100%;
+    max-height: 433px;
+    height: 100%;
+
+    margin-bottom: 96px;
+
+}
+
+.formLogin {
+    max-height: 338px;
+}
+
+.formDefault h1 {
+    width: 475px;
+    height: 28px;
+    margin-bottom: 40px;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.formDefault h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    margin-bottom: 32px;
+}
+
+.formDefault h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.formDefault input {
+    max-width: 476px;
+    width: 100%;
+    max-height: 51px;
+    height: 100%;
+
+    padding: 16px;
+    margin-bottom: 16px;
+    color: #968B8B;
+    background: #FDFAFA;
+    border: 1px solid #E8E8E8;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.formDefault button {
+    max-width: 475px;
+    width: 100%;
+    min-height: 50px;
+
+    cursor: pointer;
+
+    border: none;
+    background: #04C45C;
+    border-radius: 8px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.signUpText {
+    width: 235px;
+    height: 19px;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.signUpText a {
+    color: #1972A8;
+}
